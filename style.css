@@ -85,3 +85,13 @@ p {
 
   padding: 0.5rem 0;
 }
+
+@media(max-width: 786px) {
+  .container-form {
+    flex-direction: column;
+  }
+
+  form, .result {
+    width: 100%;
+  }
+}
